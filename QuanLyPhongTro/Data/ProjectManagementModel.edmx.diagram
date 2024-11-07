@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d833a9643f5e43c48a07c5ef8ea17bfa" Name="Diagram1">
+        <EntityTypeShape EntityType="ProjectManagementModel.Department" Width="1.5" PointX="1.5" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectManagementModel.Employee" Width="1.5" PointX="3.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectManagementModel.Feedback" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectManagementModel.Milestone" Width="1.5" PointX="3" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectManagementModel.Project" Width="1.5" PointX="0.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectManagementModel.Report" Width="1.5" PointX="3" PointY="10" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectManagementModel.Setting" Width="1.5" PointX="6" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="ProjectManagementModel.Task" Width="1.5" PointX="6" PointY="6.75" IsExpanded="true" />
+        <AssociationConnector Association="ProjectManagementModel.FK__Employees__Depar__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectManagementModel.FK__Settings__UserID__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectManagementModel.FK__Tasks__AssignedE__2F10007B" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectManagementModel.FK__Feedback__Projec__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectManagementModel.FK__Milestone__Proje__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectManagementModel.FK__Reports__Project__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="ProjectManagementModel.FK__Tasks__ProjectID__2E1BDC42" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

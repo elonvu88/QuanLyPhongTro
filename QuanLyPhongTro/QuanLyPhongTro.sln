@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuanLyPhongTro", "QuanLyPhongTro.csproj", "{E19738B5-651C-46EE-B6D0-709CADA0AEA7}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup", "..\Setup\Setup\Setup.vdproj", "{EA761858-866F-4D74-BF47-98463D4323CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E19738B5-651C-46EE-B6D0-709CADA0AEA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E19738B5-651C-46EE-B6D0-709CADA0AEA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E19738B5-651C-46EE-B6D0-709CADA0AEA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E19738B5-651C-46EE-B6D0-709CADA0AEA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA761858-866F-4D74-BF47-98463D4323CA}.Debug|Any CPU.ActiveCfg = Debug
+		{EA761858-866F-4D74-BF47-98463D4323CA}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6638DFCC-C51E-4640-AB4E-D5AA642B125D}
+	EndGlobalSection
+EndGlobal

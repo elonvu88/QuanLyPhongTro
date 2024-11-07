@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+	<connectionStrings>
+		<!--<add name="MyWorkEntities" connectionString="metadata=res://*/Data.MyWorkModel.csdl|res://*/Data.MyWorkModel.ssdl|res://*/Data.MyWorkModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DESKTOP-EJDD5UU\SQLEXPRESS;initial catalog=MyWork;persist security info=True;user id=sa;password=;MultipleActiveResultSets=True;App=EntityFramework&quot;" providerName="System.Data.EntityClient" />-->
+	</connectionStrings>
+</configuration>
